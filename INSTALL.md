@@ -12,15 +12,15 @@
 ### 2. server.cfg に追加
 
 ```cfg
-# Bridge System (他のリソースより先に起動)
-ensure hf_bridge
-
 # フレームワーク (どれか1つ)
 ensure qb-core
 # または
 ensure es_extended
 # または
 ensure qbox
+
+# Bridge System (他のリソースより先に起動)
+ensure hf_bridge
 
 # オプション: 推奨リソース
 ensure ox_lib
